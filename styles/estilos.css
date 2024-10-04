@@ -5,12 +5,13 @@
 }
 
 body{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background-color: #040841;
-    display: grid;
-    place-items: center;
     color: antiquewhite;
+    gap: 50px;
 }
 
 .calculadora {
@@ -24,7 +25,4 @@ body{
     padding: 1.5rem;
     border-radius: 1rem;    
     gap: 10px;
-}
-.ingresos {
-  
 }

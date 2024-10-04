@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EJERCICIOS JS</title>
+    <title> Calculadora Simple </title>
 
     <!-- CSS de la calculadora -->
 
@@ -12,30 +12,30 @@
 
     <!-- Script -->
 
-    <script async src="/Scripts/ejercicios.js"></script>
+    <script async src="/Scripts/calculadora.js"></script>
 </head>
 
 <body>
     
-    <!-- Como si fuera una calculadora de verdad en HTML -->
+    <!-- calculadora de verdad en HTML -->
+     
      <h1> CALCULADORA </h1>
 
     <section>
         <form class="calculadora">
-            <figure class="ingresos">
+            <figure>
                 <input type="text" id="num1" placeholder="Ingrese el primer número">
                 <input type="text" id="num2" placeholder="Ingrese el segundo número">
             </figure>
-            <figure class="operaciones">
+            <figure>
                 <button type="button" onclick="sumar()"> Sumar </button>
                 <button type="button" onclick="restar()"> Restar </button>
                 <button type="button" onclick="multiplicar()"> Multiplicar </button>
                 <button type="button" onclick="dividir()"> Dividir </button>
             </figure>
-            <br>
-            <article class="resultados">
+            <article>
                 <p> Resultado: </p>
-                <input type="text" id="resultado">
+                <input type="text" id="Resultado">
             </article>
         </form>
     </section>
